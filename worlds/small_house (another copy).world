@@ -2,7 +2,7 @@
   <world name='default'>
     <gui fullscreen='0'>
       <camera name='gzclient_camera'>
-        <pose frame=''>1.07513 3.93577 1.94871 0 0.141796 -1.58638</pose>
+        <pose frame=''>-0.841503 -6.33819 22.5951 0 1.2818 1.55278</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -1129,6 +1129,58 @@
       </link>
       <static>1</static>
       <pose frame=''>2.85405 3.45 0.000585 0 -0 0</pose>
+    </model>
+    <model name='SecurityCamera_01_001'>
+      <static>1</static>
+      <link name='aws_robomaker_residential_SecurityCamera_01::link'>
+        <inertial>
+          <mass>1</mass>
+          <inertia>
+            <ixx>18.2222</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>18.2222</iyy>
+            <iyz>0</iyz>
+            <izz>0.0018767</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://aws_robomaker_residential_SecurityCamera_01/meshes/aws_SecurityCamera_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://aws_robomaker_residential_SecurityCamera_01/meshes/aws_SecurityCamera_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>2</layer>
+          </meta>
+        </visual>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>0.842134 -4.99629 0.495067 0 -0 -2.84104</pose>
     </model>
     <model name='CoffeeTable_01_001'>
       <static>1</static>
@@ -3193,6 +3245,51 @@
       </link>
       <pose frame=''>-8.70415 1.00058 0.011 0 -0 0</pose>
     </model>
+    <model name='TV_01_001'>
+      <static>1</static>
+      <link name='aws_robomaker_residential_TV_01::link'>
+        <inertial>
+          <mass>1</mass>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://aws_robomaker_residential_TV_01/meshes/aws_TV_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://aws_robomaker_residential_TV_01/meshes/aws_TV_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>2</layer>
+          </meta>
+        </visual>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose frame=''>0.824259 -5.38297 0.676282 0 -0 -1.56174</pose>
+    </model>
     <model name='TVCabinet_01_001'>
       <static>1</static>
       <link name='aws_robomaker_residential_TVCabinet_01::link'>
@@ -4063,10 +4160,10 @@
       <pose frame=''>-8.66193 -3.93112 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>1730 816000000</sim_time>
-      <real_time>166 938215657</real_time>
-      <wall_time>1651075620 853744999</wall_time>
-      <iterations>166105</iterations>
+      <sim_time>1564 711000000</sim_time>
+      <real_time>40 326040129</real_time>
+      <wall_time>1651036102 336802804</wall_time>
+      <iterations>40231</iterations>
       <model name='AirconditionerA_01_001'>
         <pose frame=''>-9.19941 2.41123 2.08454 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -4777,6 +4874,16 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+      <model name='SecurityCamera_01_001'>
+        <pose frame=''>0.842134 -4.99629 0.495067 0 0 -2.84104</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_residential_SecurityCamera_01::link'>
+          <pose frame=''>0.842134 -4.99629 0.495067 0 0 -2.84104</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
       <model name='ShoeRack_01_001'>
         <pose frame=''>4.29798 -5.17357 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -4792,6 +4899,16 @@
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_TVCabinet_01::link'>
           <pose frame=''>0.629509 -5.18358 -0.017049 0 -0 1.5792</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='TV_01_001'>
+        <pose frame=''>0.824259 -5.38297 0.676282 0 0 -1.56174</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_residential_TV_01::link'>
+          <pose frame=''>0.824259 -5.38297 0.676282 0 0 -1.56174</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -4858,10 +4975,10 @@
         </link>
       </model>
       <model name='aws_robomaker_residential_ChairA_01_0'>
-        <pose frame=''>1.84388 -0.939976 -5e-06 2.7e-05 -0 1.56999</pose>
+        <pose frame=''>1.84388 -0.939977 -5e-06 -2.7e-05 -0 1.57</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>1.84388 -0.939976 -5e-06 2.7e-05 -0 1.56999</pose>
+          <pose frame=''>1.84388 -0.939977 -5e-06 -2.7e-05 -0 1.57</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -73.5 0 -0 0</wrench>
@@ -4932,22 +5049,6 @@
         </link>
         <link name='link_4'>
           <pose frame=''>-7.6 2.9 0.7 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='monitor_5'>
-        <pose frame=''>1.4 -5 0.5 0 -0 3.14</pose>
-        <scale>1 1 1</scale>
-        <link name='link_6'>
-          <pose frame=''>1.70593 -4.94118 0.5 0 -0 3.14</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-        <link name='link_8'>
-          <pose frame=''>1.70784 -4.94222 0.5 0 -0 3.14</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -5551,111 +5652,6 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>1.0368 -0.934964 0 0 -0 0</pose>
-    </model>
-    <audio>
-      <device>default</device>
-    </audio>
-    <model name='monitor_5'>
-      <link name='link_6'>
-        <pose frame=''>-0.305832 -0.059311 0 0 -0 0</pose>
-        <visual name='visual'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <uri>model://monitor_5/meshes/frame.dae</uri>
-              <scale>3 2 3</scale>
-            </mesh>
-          </geometry>
-          <material>
-            <lighting>1</lighting>
-            <ambient>0 0 0 1</ambient>
-            <diffuse>0.2 0.2 0.2 1</diffuse>
-            <specular>0.01 0.01 0.01 1</specular>
-            <emissive>0 0 0 1</emissive>
-            <shader type='vertex'>
-              <normal_map>__default__</normal_map>
-            </shader>
-          </material>
-          <cast_shadows>1</cast_shadows>
-          <transparency>0</transparency>
-        </visual>
-        <collision name='collision'>
-          <laser_retro>0</laser_retro>
-          <max_contacts>10</max_contacts>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <uri>model://monitor_5/meshes/frame.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <link name='link_8'>
-        <pose frame=''>-0.307748 -0.058272 0 0 -0 0</pose>
-        <visual name='visual'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <uri>model://monitor_5/meshes/screen1.dae</uri>
-              <scale>3 2 3</scale>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://monitor_5/materials/scripts</uri>
-              <uri>model://monitor_5/materials/textures</uri>
-              <name>monitor_screen</name>
-            </script>
-          </material>
-          <cast_shadows>1</cast_shadows>
-          <transparency>0</transparency>
-        </visual>
-        <collision name='collision'>
-          <laser_retro>0</laser_retro>
-          <max_contacts>10</max_contacts>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <uri>model://monitor_5/meshes/screen1.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <static>1</static>
-      <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>-0.318042 0.467691 0 0 -0 0</pose>
     </model>
   </world>
 </sdf>
