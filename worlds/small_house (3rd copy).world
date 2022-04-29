@@ -2,7 +2,7 @@
   <world name='default'>
     <gui fullscreen='0'>
       <camera name='gzclient_camera'>
-        <pose frame=''>-0.251333 -10.7414 28.8929 -0 1.0858 1.60162</pose>
+        <pose frame=''>1.07513 3.93577 1.94871 0 0.141796 -1.58638</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -3097,6 +3097,50 @@
       </link>
       <pose frame=''>4.29798 -5.17357 0 0 -0 0</pose>
     </model>
+    <model name='Tableware_01_001'>
+      <static>1</static>
+      <link name='aws_robomaker_residential_Tableware_01::link'>
+        <inertial>
+          <mass>1</mass>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>7.15317 0.982767 0.817812 -0.001238 -0.000976 1.02476</pose>
+    </model>
     <model name='Trash_01_002'>
       <static>1</static>
       <link name='aws_robomaker_residential_Trash_01::link'>
@@ -4019,10 +4063,10 @@
       <pose frame=''>-8.66193 -3.93112 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>1986 502000000</sim_time>
-      <real_time>256 304760197</real_time>
-      <wall_time>1651217102 240166720</wall_time>
-      <iterations>255686</iterations>
+      <sim_time>1730 816000000</sim_time>
+      <real_time>166 938215657</real_time>
+      <wall_time>1651075620 853744999</wall_time>
+      <iterations>166105</iterations>
       <model name='AirconditionerA_01_001'>
         <pose frame=''>-9.19941 2.41123 2.08454 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -4054,10 +4098,10 @@
         </link>
       </model>
       <model name='Ball_01_001'>
-        <pose frame=''>2.4 4.29 0.318684 0 -0 0</pose>
+        <pose frame=''>3.2955 4.22567 0.318684 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Ball_01::link'>
-          <pose frame=''>2.4 4.29 0.318684 0 -0 0</pose>
+          <pose frame=''>3.2955 4.22567 0.318684 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -4354,20 +4398,20 @@
         </link>
       </model>
       <model name='Dumbbell_01_001'>
-        <pose frame=''>3.49 4.7 0 0 -0 1.57</pose>
+        <pose frame=''>3.8 3.1691 0.6 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Dumbbell_01::link'>
-          <pose frame=''>3.49 4.7 0 0 -0 1.57</pose>
+          <pose frame=''>3.8 3.1691 0.6 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='FitnessEquipment_01_001'>
-        <pose frame=''>3.48472 4 0.003168 0 -0 1.57</pose>
+        <pose frame=''>3.48472 3.1691 0.003168 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_FitnessEquipment_01::link'>
-          <pose frame=''>3.48472 4 0.003168 0 -0 1.57</pose>
+          <pose frame=''>3.48472 3.1691 0.003168 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -4763,6 +4807,16 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+      <model name='Tableware_01_001'>
+        <pose frame=''>7.15317 0.982767 0.817812 -0.001238 -0.000976 1.02476</pose>
+        <scale>1 1 1</scale>
+        <link name='aws_robomaker_residential_Tableware_01::link'>
+          <pose frame=''>7.15317 0.982767 0.817812 -0.001238 -0.000976 1.02476</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
       <model name='Trash_01_002'>
         <pose frame=''>-8.70415 1.00058 0.011 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -4804,13 +4858,13 @@
         </link>
       </model>
       <model name='aws_robomaker_residential_ChairA_01_0'>
-        <pose frame=''>1.84388 -0.939975 -6e-06 -3.3e-05 -0 1.56999</pose>
+        <pose frame=''>1.84388 -0.939976 -5e-06 2.7e-05 -0 1.56999</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>1.84388 -0.939975 -6e-06 -3.3e-05 -0 1.56999</pose>
+          <pose frame=''>1.84388 -0.939976 -5e-06 2.7e-05 -0 1.56999</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-0.00037 -3.3e-05 3.29427 -0.068767 1.4013 5.3e-05</acceleration>
-          <wrench>-0.002775 -0.000247 24.707 0 -0 0</wrench>
+          <acceleration>0 0 -9.8 0 -0 0</acceleration>
+          <wrench>0 0 -73.5 0 -0 0</wrench>
         </link>
       </model>
       <model name='book_1'>
