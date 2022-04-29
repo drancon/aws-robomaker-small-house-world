@@ -1,4 +1,4 @@
-image: ./aws_robomaker_small_house.pgm
+image: aws_robomaker_small_house.pgm
 resolution: 0.100000
 origin: [-9.500000, -5.750000, 0.000000]
 negate: 0

@@ -1,8 +1,8 @@
-<sdf version='1.6'>
+<sdf version='1.7'>
   <world name='default'>
     <gui fullscreen='0'>
       <camera name='gzclient_camera'>
-        <pose frame=''>1.07513 3.93577 1.94871 0 0.141796 -1.58638</pose>
+        <pose>4.83183 -2.7218 18.3135 0 1.1178 2.39761</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -66,13 +66,13 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-9.19941 2.41123 2.08454 0 -0 0</pose>
+      <pose>-9.19941 2.41123 2.08454 0 -0 0</pose>
     </model>
     <model name='AirconditionerB_01_001'>
       <static>1</static>
@@ -111,12 +111,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-2.00466 -5.22661 0.003485 0 -0 0</pose>
+      <pose>-2.00466 -5.22661 0.003485 0 -0 0</pose>
     </model>
     <model name='Ball_01_001'>
       <static>1</static>
@@ -172,12 +172,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>3.2955 4.22567 0.318684 0 -0 0</pose>
+      <pose>3.2955 4.22567 0.318684 0 -0 0</pose>
     </model>
     <model name='Ball_01_003'>
       <static>1</static>
@@ -233,12 +233,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-6.9455 -4.22174 0.318684 0 -0 0</pose>
+      <pose>-6.9455 -4.22174 0.318684 0 -0 0</pose>
     </model>
     <model name='Bed_01_001'>
       <static>1</static>
@@ -277,13 +277,13 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-6.16507 2.03056 -1e-05 0 -0 0</pose>
+      <pose>-6.16507 2.03056 -1e-05 0 -0 0</pose>
     </model>
     <model name='NightStand_01_001'>
       <static>1</static>
@@ -330,13 +330,13 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-7.72551 2.86042 0.005258 -2e-06 0 0</pose>
+      <pose>-7.72551 2.86042 0.005258 -2e-06 0 0</pose>
     </model>
     <model name='NightStand_01_002'>
       <static>1</static>
@@ -383,13 +383,13 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-4.40734 2.86042 0.005256 0 2e-06 0</pose>
+      <pose>-4.40734 2.86042 0.005256 0 2e-06 0</pose>
     </model>
     <model name='Board_01_001'>
       <static>1</static>
@@ -428,13 +428,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>2.77907 -5.3927 1.53817 0 -0 0</pose>
+      <pose>2.77907 -5.3927 1.53817 0 -0 0</pose>
     </model>
     <model name='ChairA_01_001'>
       <static>1</static>
@@ -481,12 +481,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>7.11516 0.209028 0.024685 1e-06 -0 -1.55607</pose>
+      <pose>7.11516 0.209028 0.024685 1e-06 -0 -1.55607</pose>
     </model>
     <model name='ChairA_01_002'>
       <static>1</static>
@@ -533,12 +533,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>6.25506 0.219468 0.011308 0 0 -1.50414</pose>
+      <pose>6.25506 0.219468 0.011308 0 0 -1.50414</pose>
     </model>
     <model name='ChairA_01_003'>
       <static>1</static>
@@ -585,12 +585,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>6.06678 1.68075 0.01 0 -0 1.56986</pose>
+      <pose>6.06678 1.68075 0.01 0 -0 1.56986</pose>
     </model>
     <model name='ChairA_01_004'>
       <static>1</static>
@@ -637,12 +637,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>7.00277 1.67074 0 0 -0 1.52363</pose>
+      <pose>7.00277 1.67074 0 0 -0 1.52363</pose>
     </model>
     <model name='ChairA_01_005'>
       <static>1</static>
@@ -689,12 +689,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-8.27094 1.91665 0.03665 0 -0 0</pose>
+      <pose>-8.27094 1.91665 0.03665 0 -0 0</pose>
     </model>
     <model name='ChairD_01_001'>
       <static>1</static>
@@ -741,12 +741,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-1.38078 4.10446 0 0 -0 0</pose>
+      <pose>-1.38078 4.10446 0 0 -0 0</pose>
     </model>
     <model name='ChairD_01_002'>
       <static>1</static>
@@ -793,12 +793,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>0.325214 4.10446 0 0 -0 -3.13874</pose>
+      <pose>0.325214 4.10446 0 0 -0 -3.13874</pose>
     </model>
     <model name='ChairD_01_003'>
       <static>1</static>
@@ -845,12 +845,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-8.27078 -4.50446 0 0 -0 0.869673</pose>
+      <pose>-8.27078 -4.50446 0 0 -0 0.869673</pose>
     </model>
     <model name='Chandelier_01_001'>
       <static>1</static>
@@ -889,13 +889,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>1.22106 4.15574 1.295 0 -0 0</pose>
+      <pose>1.22106 4.15574 1.295 0 -0 0</pose>
     </model>
     <model name='Chandelier_01_002'>
       <static>1</static>
@@ -934,13 +934,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-6.45106 -0.69204 1.81 0 -0 0</pose>
+      <pose>-6.45106 -0.69204 1.81 0 -0 0</pose>
     </model>
     <model name='Chandelier_01_003'>
       <static>1</static>
@@ -979,13 +979,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>7.82406 -1.59 1.751 0 -0 0</pose>
+      <pose>7.82406 -1.59 1.751 0 -0 0</pose>
     </model>
     <model name='Chandelier_01_004'>
       <static>1</static>
@@ -1024,13 +1024,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>1.22106 -1.59204 1.7873 0 -0 0</pose>
+      <pose>1.22106 -1.59204 1.7873 0 -0 0</pose>
     </model>
     <model name='Carpet_01_001'>
       <static>1</static>
@@ -1060,7 +1060,7 @@
             </contact>
             <bounce/>
           </surface>
-          <pose frame=''>0 0 -0.01 0 -0 0</pose>
+          <pose>0 0 -0.01 0 -0 0</pose>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='visual'>
@@ -1073,13 +1073,13 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>0.78505 -1.10665 0.001106 0 -0 0</pose>
+      <pose>0.78505 -1.10665 0.001106 0 -0 0</pose>
     </model>
     <model name='Carpet_01_002'>
       <static>1</static>
@@ -1109,7 +1109,7 @@
             </contact>
             <bounce/>
           </surface>
-          <pose frame=''>0 0 -0.01 0 -0 0</pose>
+          <pose>0 0 -0.01 0 -0 0</pose>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='visual'>
@@ -1122,13 +1122,13 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>2.85405 3.45 0.000585 0 -0 0</pose>
+      <pose>2.85405 3.45 0.000585 0 -0 0</pose>
     </model>
     <model name='CoffeeTable_01_001'>
       <static>1</static>
@@ -1177,13 +1177,13 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>1.5123 -1.73344 0.041983 0 -0 0.01</pose>
+      <pose>1.5123 -1.73344 0.041983 0 -0 0.01</pose>
     </model>
     <model name='CookingBench_01_001'>
       <link name='aws_robomaker_residential_CookingBench_01::link'>
@@ -1221,12 +1221,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>9.03838 -3.35114 0.90361 0 -0 3.13713</pose>
+      <pose>9.03838 -3.35114 0.90361 0 -0 3.13713</pose>
       <static>1</static>
     </model>
     <model name='Curtain_01_001'>
@@ -1266,13 +1266,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-9.17264 0.20376 0 0 -0 0</pose>
+      <pose>-9.17264 0.20376 0 0 -0 0</pose>
     </model>
     <model name='KitchenTable_01_001'>
       <static>1</static>
@@ -1311,12 +1311,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>6.55269 0.951173 -6e-06 0 -0 -1.56413</pose>
+      <pose>6.55269 0.951173 -6e-06 0 -0 -1.56413</pose>
     </model>
     <model name='ReadingDesk_01_001'>
       <static>1</static>
@@ -1363,12 +1363,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-8.98726 2.05706 0 0 -0 -0.004638</pose>
+      <pose>-8.98726 2.05706 0 0 -0 -0.004638</pose>
     </model>
     <model name='BalconyTable_01_001'>
       <static>1</static>
@@ -1407,12 +1407,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-0.55624 4.11124 0 0 -0 0</pose>
+      <pose>-0.55624 4.11124 0 0 -0 0</pose>
     </model>
     <model name='Door_01_001'>
       <static>1</static>
@@ -1451,13 +1451,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>6.00145 -5.549 0 0 -0 0</pose>
+      <pose>6.00145 -5.549 0 0 -0 0</pose>
     </model>
     <model name='Dumbbell_01_001'>
       <static>1</static>
@@ -1504,13 +1504,13 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>2.51285 2.71779 0.002183 0 -0 0</pose>
+      <pose>2.51285 2.71779 0.002183 0 -0 0</pose>
     </model>
     <model name='Tablet_01_001'>
       <static>1</static>
@@ -1557,13 +1557,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>1.57283 -1.77586 0.40179 -0.020625 -8e-05 -0.006317</pose>
+      <pose>1.57283 -1.77586 0.40179 -0.020625 -8e-05 -0.006317</pose>
     </model>
     <model name='FitnessEquipment_01_001'>
       <static>1</static>
@@ -1602,13 +1602,13 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>3.48472 3.1691 0.003168 0 -0 0</pose>
+      <pose>3.48472 3.1691 0.003168 0 -0 0</pose>
     </model>
     <model name='FoldingDoor_01_001'>
       <static>1</static>
@@ -1647,13 +1647,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-2.4611 1.84422 0.041881 0 -0 0</pose>
+      <pose>-2.4611 1.84422 0.041881 0 -0 0</pose>
     </model>
     <model name='FoldingDoor_01_002'>
       <static>1</static>
@@ -1692,13 +1692,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-2.4611 -4.05332 0.041881 0 -0 0</pose>
+      <pose>-2.4611 -4.05332 0.041881 0 -0 0</pose>
     </model>
     <model name='Handle_01_001'>
       <static>1</static>
@@ -1737,13 +1737,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>5.724 -5.523 0.9938 0 -0 -3.1415</pose>
+      <pose>5.724 -5.523 0.9938 0 -0 -3.1415</pose>
     </model>
     <model name='HouseWallB_01_001'>
       <static>1</static>
@@ -1782,13 +1782,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>0 0 0 0 -0 0</pose>
+      <pose>0 0 0 0 -0 0</pose>
     </model>
     <model name='FloorB_01_001'>
       <static>1</static>
@@ -1830,13 +1830,13 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>0 0 0 0 -0 0</pose>
+      <pose>0 0 0 0 -0 0</pose>
     </model>
     <model name='FoldingDoor_02_001'>
       <static>1</static>
@@ -1875,13 +1875,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>4.67423 2.46451 0 0 -0 3.14159</pose>
+      <pose>4.67423 2.46451 0 0 -0 3.14159</pose>
     </model>
     <model name='FoldingDoor_02_002'>
       <static>1</static>
@@ -1920,13 +1920,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>4.8912 -4.84968 0 0 -0 0</pose>
+      <pose>4.8912 -4.84968 0 0 -0 0</pose>
     </model>
     <model name='KitchenCabinet_01_001'>
       <static>1</static>
@@ -1966,13 +1966,13 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>8.00201 -3.83651 0.012068 0 -0 -3.14</pose>
+      <pose>8.00201 -3.83651 0.012068 0 -0 -3.14</pose>
     </model>
     <model name='KitchenUtensils_01_001'>
       <static>1</static>
@@ -2011,13 +2011,13 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>9.28548 -5.02126 1.1418 0 -0 0</pose>
+      <pose>9.28548 -5.02126 1.1418 0 -0 0</pose>
     </model>
     <model name='LightC_01_001'>
       <static>1</static>
@@ -2056,13 +2056,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>1.76957 -5.44437 2 0 -0 0</pose>
+      <pose>1.76957 -5.44437 2 0 -0 0</pose>
     </model>
     <model name='LightC_01_002'>
       <static>1</static>
@@ -2101,13 +2101,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-0.138245 -5.44437 2 0 -0 0</pose>
+      <pose>-0.138245 -5.44437 2 0 -0 0</pose>
     </model>
     <model name='PortraitA_01'>
       <static>1</static>
@@ -2146,13 +2146,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-2.71236 -4.81754 1 0 -0 1.5668</pose>
+      <pose>-2.71236 -4.81754 1 0 -0 1.5668</pose>
     </model>
     <model name='PortraitB_01'>
       <static>1</static>
@@ -2191,13 +2191,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-1.27968 -5.42963 0 -0.076901 0 -3.11672</pose>
+      <pose>-1.27968 -5.42963 0 -0.076901 0 -3.11672</pose>
     </model>
     <model name='PortraitB_02'>
       <static>1</static>
@@ -2236,13 +2236,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>5.73702 3.08031 0.3 0 -0 0</pose>
+      <pose>5.73702 3.08031 0.3 0 -0 0</pose>
     </model>
     <model name='PortraitB_03'>
       <static>1</static>
@@ -2281,13 +2281,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>3.07138 -5.34937 0.005494 -0.168428 -0 3.10423</pose>
+      <pose>3.07138 -5.34937 0.005494 -0.168428 -0 3.10423</pose>
     </model>
     <model name='PortraitA_02'>
       <static>1</static>
@@ -2326,13 +2326,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>7.93702 3.08031 0.3 0 -0 3.14</pose>
+      <pose>7.93702 3.08031 0.3 0 -0 3.14</pose>
     </model>
     <model name='PortraitC_01'>
       <static>1</static>
@@ -2371,13 +2371,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-9.2949 -4.52608 1 0 -0 1.55473</pose>
+      <pose>-9.2949 -4.52608 1 0 -0 1.55473</pose>
     </model>
     <model name='PortraitE_01'>
       <static>1</static>
@@ -2416,13 +2416,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-5.77309 -5.49247 1 0 -0 3.13263</pose>
+      <pose>-5.77309 -5.49247 1 0 -0 3.13263</pose>
     </model>
     <model name='PortraitE_02'>
       <static>1</static>
@@ -2461,13 +2461,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-6.19302 -1.59021 0.3 0 -0 0.00429</pose>
+      <pose>-6.19302 -1.59021 0.3 0 -0 0.00429</pose>
     </model>
     <model name='DeskPortraitA_01'>
       <static>1</static>
@@ -2514,12 +2514,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-0.036864 -5.11016 0.49866 0 -0 2.92778</pose>
+      <pose>-0.036864 -5.11016 0.49866 0 -0 2.92778</pose>
     </model>
     <model name='DeskPortraitA_02'>
       <static>1</static>
@@ -2566,12 +2566,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>2.04608 -1.89293 0.070388 -0.018328 -0.000441 1.57622</pose>
+      <pose>2.04608 -1.89293 0.070388 -0.018328 -0.000441 1.57622</pose>
     </model>
     <model name='DeskPortraitC_01'>
       <static>1</static>
@@ -2618,12 +2618,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-7.74638 2.73108 0.69462 0.000488 -0.000359 -0.055499</pose>
+      <pose>-7.74638 2.73108 0.69462 0.000488 -0.000359 -0.055499</pose>
     </model>
     <model name='DeskPortraitC_02'>
       <static>1</static>
@@ -2670,12 +2670,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>0.964613 -1.58695 0.127676 0.001614 -0.000545 -1.5787</pose>
+      <pose>0.964613 -1.58695 0.127676 0.001614 -0.000545 -1.5787</pose>
     </model>
     <model name='DeskPortraitD_01'>
       <static>1</static>
@@ -2727,12 +2727,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>2.64556 -5.37622 1.57374 0 -0 -3.11283</pose>
+      <pose>2.64556 -5.37622 1.57374 0 -0 -3.11283</pose>
     </model>
     <model name='DeskPortraitD_02'>
       <static>1</static>
@@ -2784,12 +2784,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-0.589211 -5.10989 0.192145 -1.5e-05 -0.000174 -3.11254</pose>
+      <pose>-0.589211 -5.10989 0.192145 -1.5e-05 -0.000174 -3.11254</pose>
     </model>
     <model name='DeskPortraitD_03'>
       <static>1</static>
@@ -2841,12 +2841,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>1.82673 -1.46488 0.126208 1e-05 6e-06 -3.11438</pose>
+      <pose>1.82673 -1.46488 0.126208 1e-05 6e-06 -3.11438</pose>
     </model>
     <model name='DeskPortraitD_04'>
       <static>1</static>
@@ -2898,12 +2898,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>4.30213 -5.17657 0.202496 0.007118 -1e-06 3.04668</pose>
+      <pose>4.30213 -5.17657 0.202496 0.007118 -1e-06 3.04668</pose>
     </model>
     <model name='Rangehood_01_001'>
       <static>1</static>
@@ -2942,13 +2942,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>9.01979 -3.36994 1.50761 0 -0 0</pose>
+      <pose>9.01979 -3.36994 1.50761 0 -0 0</pose>
     </model>
     <model name='Refrigerator_01_001'>
       <static>1</static>
@@ -2987,13 +2987,13 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>8.70273 -1.03203 0 0 -0 -1.5635</pose>
+      <pose>8.70273 -1.03203 0 0 -0 -1.5635</pose>
     </model>
     <model name='SeasoningBox_01_001'>
       <static>1</static>
@@ -3032,12 +3032,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>9.10797 -2.65173 0.902458 -6e-06 3.4e-05 0.00129</pose>
+      <pose>9.10797 -2.65173 0.902458 -6e-06 3.4e-05 0.00129</pose>
     </model>
     <model name='ShoeRack_01_001'>
       <static>1</static>
@@ -3090,56 +3090,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>4.29798 -5.17357 0 0 -0 0</pose>
-    </model>
-    <model name='Tableware_01_001'>
-      <static>1</static>
-      <link name='aws_robomaker_residential_Tableware_01::link'>
-        <inertial>
-          <mass>1</mass>
-        </inertial>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <uri>model://aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_collision.DAE</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_visual.DAE</uri>
-            </mesh>
-          </geometry>
-          <meta>
-            <layer>1</layer>
-          </meta>
-        </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>7.15317 0.982767 0.817812 -0.001238 -0.000976 1.02476</pose>
+      <pose>4.29798 -5.17357 0 0 -0 0</pose>
     </model>
     <model name='Trash_01_002'>
       <static>1</static>
@@ -3186,12 +3142,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-8.70415 1.00058 0.011 0 -0 0</pose>
+      <pose>-8.70415 1.00058 0.011 0 -0 0</pose>
     </model>
     <model name='TVCabinet_01_001'>
       <static>1</static>
@@ -3238,13 +3194,13 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>0.629509 -5.18358 -0.017049 0 -0 1.5792</pose>
+      <pose>0.629509 -5.18358 -0.017049 0 -0 1.5792</pose>
     </model>
     <model name='Vase_01_001'>
       <static>1</static>
@@ -3283,12 +3239,12 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>3.05566 -5.41308 1.57496 3e-06 0.0017 0.00084</pose>
+      <pose>3.05566 -5.41308 1.57496 3e-06 0.0017 0.00084</pose>
     </model>
     <model name='RoomWall_01_001'>
       <static>1</static>
@@ -3327,13 +3283,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-6.09755 -1.49618 0.028124 0 -0 0</pose>
+      <pose>-6.09755 -1.49618 0.028124 0 -0 0</pose>
     </model>
     <model name='Wardrobe_01_001'>
       <static>1</static>
@@ -3372,13 +3328,13 @@
             <layer>1</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-3.14671 2.4762 0.000704 0 -0 -1.56967</pose>
+      <pose>-3.14671 2.4762 0.000704 0 -0 -1.56967</pose>
     </model>
     <model name='RoomWindow_01_001'>
       <static>1</static>
@@ -3417,13 +3373,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-9.4186 -0.026285 0.502739 0 -0 0</pose>
+      <pose>-9.4186 -0.026285 0.502739 0 -0 0</pose>
     </model>
     <model name='RoomWindow_01_002'>
       <static>1</static>
@@ -3462,13 +3418,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-9.4186 -2.37409 0.502739 0 -0 0</pose>
+      <pose>-9.4186 -2.37409 0.502739 0 -0 0</pose>
     </model>
     <model name='RoomWindow_01_003'>
       <static>1</static>
@@ -3507,13 +3463,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>9.42262 -3.37398 0.502739 0 -0 -3.1361</pose>
+      <pose>9.42262 -3.37398 0.502739 0 -0 -3.1361</pose>
     </model>
     <model name='RoomWindow_01_004'>
       <static>1</static>
@@ -3552,13 +3508,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>9.42256 0.96852 0.496581 0 -0 -3.1361</pose>
+      <pose>9.42256 0.96852 0.496581 0 -0 -3.1361</pose>
     </model>
     <model name='RoomWindow_01_005'>
       <static>1</static>
@@ -3597,13 +3553,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>4.72232 4.47028 0.502739 0 -0 -3.1361</pose>
+      <pose>4.72232 4.47028 0.502739 0 -0 -3.1361</pose>
     </model>
     <model name='RoomWindow_01_006'>
       <static>1</static>
@@ -3642,13 +3598,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>3.48852 5.60069 0.502739 0 -0 -1.56627</pose>
+      <pose>3.48852 5.60069 0.502739 0 -0 -1.56627</pose>
     </model>
     <model name='RoomWindow_01_007'>
       <static>1</static>
@@ -3687,13 +3643,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>1.14095 5.60069 0.502739 0 -0 -1.56627</pose>
+      <pose>1.14095 5.60069 0.502739 0 -0 -1.56627</pose>
     </model>
     <model name='RoomWindow_01_008'>
       <static>1</static>
@@ -3732,13 +3688,13 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-1.19934 5.60069 0.502739 0 -0 -1.56627</pose>
+      <pose>-1.19934 5.60069 0.502739 0 -0 -1.56627</pose>
     </model>
     <model name='RoomWindow_01_009'>
       <static>1</static>
@@ -3777,16 +3733,16 @@
             <layer>2</layer>
           </meta>
         </visual>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
       <static>1</static>
-      <pose frame=''>-2.39662 4.38761 0.502739 0 -0 0</pose>
+      <pose>-2.39662 4.38761 0.502739 0 -0 0</pose>
     </model>
     <light name='LivingRoom_CeilingLight_0' type='point'>
-      <pose frame=''>1.1943 4.15576 2.2 0 -0 0</pose>
+      <pose>1.1943 4.15576 2.2 0 -0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
@@ -3797,9 +3753,14 @@
       </attenuation>
       <cast_shadows>0</cast_shadows>
       <direction>0 0 -1</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
     </light>
     <light name='LivingRoom_CeilingLight_1' type='point'>
-      <pose frame=''>1.1943 -1.58996 2.2 0 -0 0</pose>
+      <pose>1.1943 -1.58996 2.2 0 -0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
@@ -3810,9 +3771,14 @@
       </attenuation>
       <cast_shadows>0</cast_shadows>
       <direction>0 0 -1</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
     </light>
     <light name='LivingRoom_WallLight_0' type='point'>
-      <pose frame=''>1.76956 -5.44437 2.2 0 -0 0</pose>
+      <pose>1.76956 -5.44437 2.2 0 -0 0</pose>
       <diffuse>0.24 0.24 0.24 1</diffuse>
       <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
@@ -3823,9 +3789,14 @@
       </attenuation>
       <cast_shadows>1</cast_shadows>
       <direction>0 0 -1</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
     </light>
     <light name='LivingRoom_WallLight_1' type='point'>
-      <pose frame=''>-0.13826 -5.44437 2.2 0 -0 0</pose>
+      <pose>-0.13826 -5.44437 2.2 0 -0 0</pose>
       <diffuse>0.24 0.24 0.24 1</diffuse>
       <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
@@ -3836,9 +3807,14 @@
       </attenuation>
       <cast_shadows>1</cast_shadows>
       <direction>0 0 -1</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
     </light>
     <light name='TV_Light_0' type='point'>
-      <pose frame=''>0.8269 -4.93958 1.1 0 -0 0</pose>
+      <pose>0.8269 -4.93958 1.1 0 -0 0</pose>
       <diffuse>0.31372 0.31372 0.34901 1</diffuse>
       <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
@@ -3849,9 +3825,14 @@
       </attenuation>
       <cast_shadows>1</cast_shadows>
       <direction>0 0 -1</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
     </light>
     <light name='BedRoom_Portrait_Light_0' type='spot'>
-      <pose frame=''>-6.19038 -1.8297 1.5587 0.3 -0 0</pose>
+      <pose>-6.19038 -1.8297 1.5587 0.3 -0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
@@ -3869,7 +3850,7 @@
       <direction>0 0 -1</direction>
     </light>
     <light name='BedRoom_CeilingLight_0' type='point'>
-      <pose frame=''>-6.45106 -0.69204 2 0 -0 0</pose>
+      <pose>-6.45106 -0.69204 2 0 -0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
@@ -3880,9 +3861,14 @@
       </attenuation>
       <cast_shadows>0</cast_shadows>
       <direction>0 0 -1</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
     </light>
     <light name='Kitchen_CeilingLight_0' type='point'>
-      <pose frame=''>7.8582 -1.5905 2.28 0 -0 0</pose>
+      <pose>7.8582 -1.5905 2.28 0 -0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
@@ -3893,6 +3879,11 @@
       </attenuation>
       <cast_shadows>0</cast_shadows>
       <direction>0 0 -1</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
     </light>
     <plugin name='gazebo_occupancy_map' filename='libgazebo_2Dmap_plugin.so'>
       <map_resolution>0.1</map_resolution>
@@ -3905,9 +3896,9 @@
     <wind/>
     <model name='vase_violet'>
       <link name='link_34'>
-        <pose frame=''>0 0 -0.149567 0 -0 0</pose>
+        <pose>0 0 -0.149567 0 -0 0</pose>
         <visual name='visual'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
               <uri>model://vase_violet/meshes/vase5.dae</uri>
@@ -3930,7 +3921,7 @@
         <collision name='collision'>
           <laser_retro>0</laser_retro>
           <max_contacts>10</max_contacts>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
               <uri>model://vase_violet/meshes/vase5.dae</uri>
@@ -3956,13 +3947,13 @@
       </link>
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>-4.41921 2.15365 0 0 -0 0</pose>
+      <pose>-4.41921 2.15365 0 0 -0 0</pose>
     </model>
     <model name='vase_large_2'>
       <link name='link_31'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <visual name='visual'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
               <uri>model://vase_large_2/meshes/vase3_1.dae</uri>
@@ -3982,7 +3973,7 @@
         <collision name='collision'>
           <laser_retro>0</laser_retro>
           <max_contacts>10</max_contacts>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
               <uri>model://vase_large_2/meshes/vase3_1.dae</uri>
@@ -4008,13 +3999,13 @@
       </link>
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>-3.20377 -4.92863 0 0 -0 0</pose>
+      <pose>-3.20377 -4.92863 0 0 -0 0</pose>
     </model>
     <model name='vase_large_3'>
       <link name='link_36'>
-        <pose frame=''>0.007975 -0.173271 0 0 -0 0</pose>
+        <pose>0.007975 -0.173271 0 0 -0 0</pose>
         <visual name='visual'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
               <uri>model://vase_large_3/meshes/vase6.dae</uri>
@@ -4034,7 +4025,7 @@
         <collision name='collision'>
           <laser_retro>0</laser_retro>
           <max_contacts>10</max_contacts>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
               <uri>model://vase_large_3/meshes/vase6.dae</uri>
@@ -4060,957 +4051,947 @@
       </link>
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>-8.66193 -3.93112 0 0 -0 0</pose>
+      <pose>-8.66193 -3.93112 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>1730 816000000</sim_time>
-      <real_time>166 938215657</real_time>
-      <wall_time>1651075620 853744999</wall_time>
-      <iterations>166105</iterations>
+      <sim_time>2099 569000000</sim_time>
+      <real_time>370 26594689</real_time>
+      <wall_time>1651215593 129827985</wall_time>
+      <iterations>368753</iterations>
       <model name='AirconditionerA_01_001'>
-        <pose frame=''>-9.19941 2.41123 2.08454 0 -0 0</pose>
+        <pose>-9.19941 2.41123 2.08454 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_AirconditionerA_01::link'>
-          <pose frame=''>-9.19941 2.41123 2.08454 0 -0 0</pose>
+          <pose>-9.19941 2.41123 2.08454 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='AirconditionerB_01_001'>
-        <pose frame=''>-2.00466 -5.22661 0.003485 0 -0 0</pose>
+        <pose>-2.00466 -5.22661 0.003485 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_AirconditionerB_01::link'>
-          <pose frame=''>-2.00466 -5.22661 0.003485 0 -0 0</pose>
+          <pose>-2.00466 -5.22661 0.003485 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='BalconyTable_01_001'>
-        <pose frame=''>-0.55624 4.11124 0 0 -0 0</pose>
+        <pose>-0.55624 4.11124 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_BalconyTable_01::link'>
-          <pose frame=''>-0.55624 4.11124 0 0 -0 0</pose>
+          <pose>-0.55624 4.11124 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Ball_01_001'>
-        <pose frame=''>3.2955 4.22567 0.318684 0 -0 0</pose>
+        <pose>2.4 4.22567 0.318684 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Ball_01::link'>
-          <pose frame=''>3.2955 4.22567 0.318684 0 -0 0</pose>
+          <pose>2.4 4.22567 0.318684 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Ball_01_003'>
-        <pose frame=''>-6.9455 -4.22174 0.318684 0 -0 0</pose>
+        <pose>-6.9455 -4.22174 0.318684 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Ball_01::link'>
-          <pose frame=''>-6.9455 -4.22174 0.318684 0 -0 0</pose>
+          <pose>-6.9455 -4.22174 0.318684 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Bed_01_001'>
-        <pose frame=''>-6.16507 2.03056 -1e-05 0 -0 0</pose>
+        <pose>-6.16507 2.03056 -1e-05 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Bed_01::link'>
-          <pose frame=''>-6.16507 2.03056 -1e-05 0 -0 0</pose>
+          <pose>-6.16507 2.03056 -1e-05 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Board_01_001'>
-        <pose frame=''>2.77907 -5.3927 1.53817 0 -0 0</pose>
+        <pose>2.77907 -5.3927 1.53817 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Board_01::link'>
-          <pose frame=''>2.77907 -5.3927 1.53817 0 -0 0</pose>
+          <pose>2.77907 -5.3927 1.53817 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Carpet_01_001'>
-        <pose frame=''>0.78505 -1.10665 0.001106 0 -0 0</pose>
+        <pose>0.78505 -1.10665 0.001106 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Carpet_01::link'>
-          <pose frame=''>0.78505 -1.10665 0.001106 0 -0 0</pose>
+          <pose>0.78505 -1.10665 0.001106 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Carpet_01_002'>
-        <pose frame=''>2.85405 3.45 0.000585 0 -0 0</pose>
+        <pose>2.85405 3.45 0.000585 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Carpet_01::link'>
-          <pose frame=''>2.85405 3.45 0.000585 0 -0 0</pose>
+          <pose>2.85405 3.45 0.000585 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='ChairA_01_001'>
-        <pose frame=''>7.11516 0.209028 0.024685 1e-06 -0 -1.55607</pose>
+        <pose>7.11516 0.209028 0.024685 1e-06 -0 -1.55607</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_ChairA_01::link'>
-          <pose frame=''>7.11516 0.209028 0.024685 1e-06 -0 -1.55607</pose>
+          <pose>7.11516 0.209028 0.024685 1e-06 -0 -1.55607</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='ChairA_01_002'>
-        <pose frame=''>6.25506 0.219468 0.011308 0 0 -1.50414</pose>
+        <pose>6.25506 0.219468 0.011308 0 0 -1.50414</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_ChairA_01::link'>
-          <pose frame=''>6.25506 0.219468 0.011308 0 0 -1.50414</pose>
+          <pose>6.25506 0.219468 0.011308 0 0 -1.50414</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='ChairA_01_003'>
-        <pose frame=''>6.06678 1.68075 0.01 0 -0 1.56986</pose>
+        <pose>6.06678 1.68075 0.01 0 -0 1.56986</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_ChairA_01::link'>
-          <pose frame=''>6.06678 1.68075 0.01 0 -0 1.56986</pose>
+          <pose>6.06678 1.68075 0.01 0 -0 1.56986</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='ChairA_01_004'>
-        <pose frame=''>7.00277 1.67074 0 0 -0 1.52363</pose>
+        <pose>7.00277 1.67074 0 0 -0 1.52363</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_ChairA_01::link'>
-          <pose frame=''>7.00277 1.67074 0 0 -0 1.52363</pose>
+          <pose>7.00277 1.67074 0 0 -0 1.52363</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='ChairA_01_005'>
-        <pose frame=''>-8.27094 1.91665 0.03665 0 -0 0</pose>
+        <pose>-8.27094 1.91665 0.03665 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_ChairA_01::link'>
-          <pose frame=''>-8.27094 1.91665 0.03665 0 -0 0</pose>
+          <pose>-8.27094 1.91665 0.03665 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='ChairD_01_001'>
-        <pose frame=''>-1.38078 4.10446 0 0 -0 0</pose>
+        <pose>-1.38078 4.10446 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_ChairD_01::link'>
-          <pose frame=''>-1.38078 4.10446 0 0 -0 0</pose>
+          <pose>-1.38078 4.10446 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='ChairD_01_002'>
-        <pose frame=''>0.325214 4.10446 0 0 0 -3.13874</pose>
+        <pose>0.325214 4.10446 0 0 0 -3.13874</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_ChairD_01::link'>
-          <pose frame=''>0.325214 4.10446 0 0 0 -3.13874</pose>
+          <pose>0.325214 4.10446 0 0 0 -3.13874</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='ChairD_01_003'>
-        <pose frame=''>-8.27078 -4.50446 0 0 -0 0.869673</pose>
+        <pose>-8.27078 -4.50446 0 0 -0 0.869673</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_ChairD_01::link'>
-          <pose frame=''>-8.27078 -4.50446 0 0 -0 0.869673</pose>
+          <pose>-8.27078 -4.50446 0 0 -0 0.869673</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Chandelier_01_001'>
-        <pose frame=''>1.22106 4.15574 1.295 0 -0 0</pose>
+        <pose>1.22106 4.15574 1.295 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Chandelier_01::link'>
-          <pose frame=''>1.22106 4.15574 1.295 0 -0 0</pose>
+          <pose>1.22106 4.15574 1.295 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Chandelier_01_002'>
-        <pose frame=''>-6.45106 -0.69204 1.81 0 -0 0</pose>
+        <pose>-6.45106 -0.69204 1.81 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Chandelier_01::link'>
-          <pose frame=''>-6.45106 -0.69204 1.81 0 -0 0</pose>
+          <pose>-6.45106 -0.69204 1.81 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Chandelier_01_003'>
-        <pose frame=''>7.82406 -1.59 1.751 0 -0 0</pose>
+        <pose>7.82406 -1.59 1.751 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Chandelier_01::link'>
-          <pose frame=''>7.82406 -1.59 1.751 0 -0 0</pose>
+          <pose>7.82406 -1.59 1.751 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Chandelier_01_004'>
-        <pose frame=''>1.22106 -1.59204 1.7873 0 -0 0</pose>
+        <pose>1.22106 -1.59204 1.7873 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Chandelier_01::link'>
-          <pose frame=''>1.22106 -1.59204 1.7873 0 -0 0</pose>
+          <pose>1.22106 -1.59204 1.7873 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='CoffeeTable_01_001'>
-        <pose frame=''>1.5123 -1.73344 0.041983 0 -0 0.01</pose>
+        <pose>1.5123 -1.73344 0.041983 0 -0 0.01</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_CoffeeTable_01::link'>
-          <pose frame=''>1.5123 -1.73344 0.041983 0 -0 0.01</pose>
+          <pose>1.5123 -1.73344 0.041983 0 -0 0.01</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='CookingBench_01_001'>
-        <pose frame=''>9.03838 -3.35114 0.90361 0 -0 3.13713</pose>
+        <pose>9.03838 -3.35114 0.90361 0 -0 3.13713</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_CookingBench_01::link'>
-          <pose frame=''>9.03838 -3.35114 0.90361 0 -0 3.13713</pose>
+          <pose>9.03838 -3.35114 0.90361 0 -0 3.13713</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Curtain_01_001'>
-        <pose frame=''>-9.17264 0.20376 0 0 -0 0</pose>
+        <pose>-9.17264 0.20376 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Curtain_01::link'>
-          <pose frame=''>-9.17264 0.20376 0 0 -0 0</pose>
+          <pose>-9.17264 0.20376 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='DeskPortraitA_01'>
-        <pose frame=''>-0.036864 -5.11016 0.49866 0 -0 2.92778</pose>
+        <pose>-0.036864 -5.11016 0.49866 0 -0 2.92778</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_DeskPortraitA_01::link'>
-          <pose frame=''>-0.036864 -5.11016 0.49866 0 -0 2.92778</pose>
+          <pose>-0.036864 -5.11016 0.49866 0 -0 2.92778</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='DeskPortraitA_02'>
-        <pose frame=''>2.04608 -1.89293 0.070388 -0.018328 -0.000441 1.57622</pose>
+        <pose>2.04608 -1.89293 0.070388 -0.018328 -0.000441 1.57622</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_DeskPortraitA_02::link'>
-          <pose frame=''>2.04608 -1.89293 0.070388 -0.018328 -0.000441 1.57622</pose>
+          <pose>2.04608 -1.89293 0.070388 -0.018328 -0.000441 1.57622</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='DeskPortraitC_01'>
-        <pose frame=''>-7.74638 2.73108 0.69462 0.000488 -0.000359 -0.055499</pose>
+        <pose>-7.74638 2.73108 0.69462 0.000488 -0.000359 -0.055499</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_DeskPortraitC_01::link'>
-          <pose frame=''>-7.74638 2.73108 0.69462 0.000488 -0.000359 -0.055499</pose>
+          <pose>-7.74638 2.73108 0.69462 0.000488 -0.000359 -0.055499</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='DeskPortraitC_02'>
-        <pose frame=''>0.964613 -1.58695 0.127676 0.001614 -0.000545 -1.5787</pose>
+        <pose>0.964613 -1.58695 0.127676 0.001614 -0.000545 -1.5787</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_DeskPortraitC_02::link'>
-          <pose frame=''>0.964613 -1.58695 0.127676 0.001614 -0.000545 -1.5787</pose>
+          <pose>0.964613 -1.58695 0.127676 0.001614 -0.000545 -1.5787</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='DeskPortraitD_01'>
-        <pose frame=''>2.64556 -5.37622 1.57374 0 0 -3.11283</pose>
+        <pose>2.64556 -5.37622 1.57374 0 0 -3.11283</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_DeskPortraitD_01::link'>
-          <pose frame=''>2.64556 -5.37622 1.57374 0 0 -3.11283</pose>
+          <pose>2.64556 -5.37622 1.57374 0 0 -3.11283</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='DeskPortraitD_02'>
-        <pose frame=''>-0.589211 -5.10989 0.192145 -1.5e-05 -0.000174 -3.11254</pose>
+        <pose>-0.589211 -5.10989 0.192145 -1.5e-05 -0.000174 -3.11254</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_DeskPortraitD_02::link'>
-          <pose frame=''>-0.589211 -5.10989 0.192145 -1.5e-05 -0.000174 -3.11254</pose>
+          <pose>-0.589211 -5.10989 0.192145 -1.5e-05 -0.000174 -3.11254</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='DeskPortraitD_03'>
-        <pose frame=''>1.82673 -1.46488 0.126208 1e-05 6e-06 -3.11438</pose>
+        <pose>1.82673 -1.46488 0.126208 1e-05 6e-06 -3.11438</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_DeskPortraitD_03::link'>
-          <pose frame=''>1.82673 -1.46488 0.126208 1e-05 6e-06 -3.11438</pose>
+          <pose>1.82673 -1.46488 0.126208 1e-05 6e-06 -3.11438</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='DeskPortraitD_04'>
-        <pose frame=''>4.30213 -5.17657 0.202496 0.007118 -1e-06 3.04668</pose>
+        <pose>4.30213 -5.17657 0.202496 0.007118 -1e-06 3.04668</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_DeskPortraitD_04::link'>
-          <pose frame=''>4.30213 -5.17657 0.202496 0.007118 -1e-06 3.04668</pose>
+          <pose>4.30213 -5.17657 0.202496 0.007118 -1e-06 3.04668</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Door_01_001'>
-        <pose frame=''>6.00145 -5.549 0 0 -0 0</pose>
+        <pose>6.00145 -5.549 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Door_01::link'>
-          <pose frame=''>6.00145 -5.549 0 0 -0 0</pose>
+          <pose>6.00145 -5.549 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Dumbbell_01_001'>
-        <pose frame=''>3.8 3.1691 0.6 0 -0 0</pose>
+        <pose>3.49 4.3 0.6 0 -0 1.57</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Dumbbell_01::link'>
-          <pose frame=''>3.8 3.1691 0.6 0 -0 0</pose>
+          <pose>3.49 4.3 0.6 0 -0 1.57</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='FitnessEquipment_01_001'>
-        <pose frame=''>3.48472 3.1691 0.003168 0 -0 0</pose>
+        <pose>3.48472 4 0.003168 0 -0 1.57</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_FitnessEquipment_01::link'>
-          <pose frame=''>3.48472 3.1691 0.003168 0 -0 0</pose>
+          <pose>3.48472 4 0.003168 0 -0 1.57</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='FloorB_01_001'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_FloorB_01::link'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='FoldingDoor_01_001'>
-        <pose frame=''>-2.4611 1.84422 0.041881 0 -0 0</pose>
+        <pose>-2.4611 1.84422 0.041881 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_FoldingDoor_01::link'>
-          <pose frame=''>-2.4611 1.84422 0.041881 0 -0 0</pose>
+          <pose>-2.4611 1.84422 0.041881 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='FoldingDoor_01_002'>
-        <pose frame=''>-2.4611 -4.05332 0.041881 0 -0 0</pose>
+        <pose>-2.4611 -4.05332 0.041881 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_FoldingDoor_01::link'>
-          <pose frame=''>-2.4611 -4.05332 0.041881 0 -0 0</pose>
+          <pose>-2.4611 -4.05332 0.041881 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='FoldingDoor_02_001'>
-        <pose frame=''>4.67423 2.46451 0 0 -0 3.14159</pose>
+        <pose>4.67423 2.46451 0 0 -0 3.14159</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_FoldingDoor_02::link'>
-          <pose frame=''>4.67423 2.46451 0 0 -0 3.14159</pose>
+          <pose>4.67423 2.46451 0 0 -0 3.14159</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='FoldingDoor_02_002'>
-        <pose frame=''>4.8912 -4.84968 0 0 -0 0</pose>
+        <pose>4.8912 -4.84968 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_FoldingDoor_02::link'>
-          <pose frame=''>4.8912 -4.84968 0 0 -0 0</pose>
+          <pose>4.8912 -4.84968 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Handle_01_001'>
-        <pose frame=''>5.724 -5.523 0.9938 0 0 -3.1415</pose>
+        <pose>5.724 -5.523 0.9938 0 0 -3.1415</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Handle_01::link'>
-          <pose frame=''>5.724 -5.523 0.9938 0 0 -3.1415</pose>
+          <pose>5.724 -5.523 0.9938 0 0 -3.1415</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='HouseWallB_01_001'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_HouseWallB_01::link'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='KitchenCabinet_01_001'>
-        <pose frame=''>8.00201 -3.83651 0.012068 0 0 -3.14</pose>
+        <pose>8.00201 -3.83651 0.012068 0 0 -3.14</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_KitchenCabinet_01::link'>
-          <pose frame=''>8.00201 -3.83651 0.012068 0 0 -3.14</pose>
+          <pose>8.00201 -3.83651 0.012068 0 0 -3.14</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='KitchenTable_01_001'>
-        <pose frame=''>6.55269 0.951173 -6e-06 0 0 -1.56413</pose>
+        <pose>6.55269 0.951173 -6e-06 0 0 -1.56413</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_KitchenTable_01::link'>
-          <pose frame=''>6.55269 0.951173 -6e-06 0 0 -1.56413</pose>
+          <pose>6.55269 0.951173 -6e-06 0 0 -1.56413</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='KitchenUtensils_01_001'>
-        <pose frame=''>9.28548 -5.02126 1.1418 0 -0 0</pose>
+        <pose>9.28548 -5.02126 1.1418 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_KitchenUtensils_01::link'>
-          <pose frame=''>9.28548 -5.02126 1.1418 0 -0 0</pose>
+          <pose>9.28548 -5.02126 1.1418 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='LightC_01_001'>
-        <pose frame=''>1.76957 -5.44437 2 0 -0 0</pose>
+        <pose>1.76957 -5.44437 2 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_LightC_01::link'>
-          <pose frame=''>1.76957 -5.44437 2 0 -0 0</pose>
+          <pose>1.76957 -5.44437 2 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='LightC_01_002'>
-        <pose frame=''>-0.138245 -5.44437 2 0 -0 0</pose>
+        <pose>-0.138245 -5.44437 2 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_LightC_01::link'>
-          <pose frame=''>-0.138245 -5.44437 2 0 -0 0</pose>
+          <pose>-0.138245 -5.44437 2 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='NightStand_01_001'>
-        <pose frame=''>-7.74638 2.86042 0.005258 -2e-06 0 0</pose>
+        <pose>-7.74638 2.86042 0.005258 -2e-06 0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_NightStand_01::link'>
-          <pose frame=''>-7.74638 2.86042 0.005258 -2e-06 0 0</pose>
+          <pose>-7.74638 2.86042 0.005258 -2e-06 0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='NightStand_01_002'>
-        <pose frame=''>-4.40734 2.86042 0.005256 0 2e-06 0</pose>
+        <pose>-4.40734 2.86042 0.005256 0 2e-06 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_NightStand_01::link'>
-          <pose frame=''>-4.40734 2.86042 0.005256 0 2e-06 0</pose>
+          <pose>-4.40734 2.86042 0.005256 0 2e-06 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='PortraitA_01'>
-        <pose frame=''>-2.71236 -4.81754 1 0 -0 1.5668</pose>
+        <pose>-2.71236 -4.81754 1 0 -0 1.5668</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_PortraitA_01::link'>
-          <pose frame=''>-2.71236 -4.81754 1 0 -0 1.5668</pose>
+          <pose>-2.71236 -4.81754 1 0 -0 1.5668</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='PortraitA_02'>
-        <pose frame=''>7.93702 3.08031 0.3 0 -0 3.14</pose>
+        <pose>7.93702 3.08031 0.3 0 -0 3.14</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_PortraitA_02::link'>
-          <pose frame=''>7.93702 3.08031 0.3 0 -0 3.14</pose>
+          <pose>7.93702 3.08031 0.3 0 -0 3.14</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='PortraitB_01'>
-        <pose frame=''>-1.27968 -5.42963 0 -0.076901 0 -3.11672</pose>
+        <pose>-1.27968 -5.42963 0 -0.076901 0 -3.11672</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_PortraitB_01::link'>
-          <pose frame=''>-1.27968 -5.42963 0 -0.076901 0 -3.11672</pose>
+          <pose>-1.27968 -5.42963 0 -0.076901 0 -3.11672</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='PortraitB_02'>
-        <pose frame=''>5.73702 3.08031 0.3 0 -0 0</pose>
+        <pose>5.73702 3.08031 0.3 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_PortraitB_02::link'>
-          <pose frame=''>5.73702 3.08031 0.3 0 -0 0</pose>
+          <pose>5.73702 3.08031 0.3 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='PortraitB_03'>
-        <pose frame=''>3.07138 -5.34937 0.005494 -0.168428 -0 3.10423</pose>
+        <pose>3.07138 -5.34937 0.005494 -0.168428 -0 3.10423</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_PortraitB_03::link'>
-          <pose frame=''>3.07138 -5.34937 0.005494 -0.168428 -0 3.10423</pose>
+          <pose>3.07138 -5.34937 0.005494 -0.168428 -0 3.10423</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='PortraitC_01'>
-        <pose frame=''>-9.2949 -4.52608 1 0 -0 1.55473</pose>
+        <pose>-9.2949 -4.52608 1 0 -0 1.55473</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_PortraitC_01::link'>
-          <pose frame=''>-9.2949 -4.52608 1 0 -0 1.55473</pose>
+          <pose>-9.2949 -4.52608 1 0 -0 1.55473</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='PortraitE_01'>
-        <pose frame=''>-5.77309 -5.49247 1 0 -0 3.13263</pose>
+        <pose>-5.77309 -5.49247 1 0 -0 3.13263</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_PortraitE_01::link'>
-          <pose frame=''>-5.77309 -5.49247 1 0 -0 3.13263</pose>
+          <pose>-5.77309 -5.49247 1 0 -0 3.13263</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='PortraitE_02'>
-        <pose frame=''>-6.19302 -1.59021 0.3 0 -0 0.00429</pose>
+        <pose>-6.19302 -1.59021 0.3 0 -0 0.00429</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_PortraitE_02::link'>
-          <pose frame=''>-6.19302 -1.59021 0.3 0 -0 0.00429</pose>
+          <pose>-6.19302 -1.59021 0.3 0 -0 0.00429</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Rangehood_01_001'>
-        <pose frame=''>9.01979 -3.36994 1.50761 0 -0 0</pose>
+        <pose>9.01979 -3.36994 1.50761 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Rangehood_01::link'>
-          <pose frame=''>9.01979 -3.36994 1.50761 0 -0 0</pose>
+          <pose>9.01979 -3.36994 1.50761 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='ReadingDesk_01_001'>
-        <pose frame=''>-8.98726 2.05706 0 0 0 -0.004638</pose>
+        <pose>-8.98726 2.05706 0 0 0 -0.004638</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_ReadingDesk_01::link'>
-          <pose frame=''>-8.98726 2.05706 0 0 0 -0.004638</pose>
+          <pose>-8.98726 2.05706 0 0 0 -0.004638</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Refrigerator_01_001'>
-        <pose frame=''>8.70273 -1.03203 0 0 0 -1.5635</pose>
+        <pose>8.70273 -1.03203 0 0 0 -1.5635</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Refrigerator_01::link'>
-          <pose frame=''>8.70273 -1.03203 0 0 0 -1.5635</pose>
+          <pose>8.70273 -1.03203 0 0 0 -1.5635</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='RoomWall_01_001'>
-        <pose frame=''>-6.09755 -1.49618 0.028124 0 -0 0</pose>
+        <pose>-6.09755 -1.49618 0.028124 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_RoomWall_01::link'>
-          <pose frame=''>-6.09755 -1.49618 0.028124 0 -0 0</pose>
+          <pose>-6.09755 -1.49618 0.028124 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='RoomWindow_01_001'>
-        <pose frame=''>-9.4186 -0.026285 0.502739 0 -0 0</pose>
+        <pose>-9.4186 -0.026285 0.502739 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_RoomWindow_01::link'>
-          <pose frame=''>-9.4186 -0.026285 0.502739 0 -0 0</pose>
+          <pose>-9.4186 -0.026285 0.502739 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='RoomWindow_01_002'>
-        <pose frame=''>-9.4186 -2.37409 0.502739 0 -0 0</pose>
+        <pose>-9.4186 -2.37409 0.502739 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_RoomWindow_01::link'>
-          <pose frame=''>-9.4186 -2.37409 0.502739 0 -0 0</pose>
+          <pose>-9.4186 -2.37409 0.502739 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='RoomWindow_01_003'>
-        <pose frame=''>9.42262 -3.37398 0.502739 0 0 -3.1361</pose>
+        <pose>9.42262 -3.37398 0.502739 0 0 -3.1361</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_RoomWindow_01::link'>
-          <pose frame=''>9.42262 -3.37398 0.502739 0 0 -3.1361</pose>
+          <pose>9.42262 -3.37398 0.502739 0 0 -3.1361</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='RoomWindow_01_004'>
-        <pose frame=''>9.42256 0.96852 0.496581 0 0 -3.1361</pose>
+        <pose>9.42256 0.96852 0.496581 0 0 -3.1361</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_RoomWindow_01::link'>
-          <pose frame=''>9.42256 0.96852 0.496581 0 0 -3.1361</pose>
+          <pose>9.42256 0.96852 0.496581 0 0 -3.1361</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='RoomWindow_01_005'>
-        <pose frame=''>4.72232 4.47028 0.502739 0 0 -3.1361</pose>
+        <pose>4.72232 4.47028 0.502739 0 0 -3.1361</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_RoomWindow_01::link'>
-          <pose frame=''>4.72232 4.47028 0.502739 0 0 -3.1361</pose>
+          <pose>4.72232 4.47028 0.502739 0 0 -3.1361</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='RoomWindow_01_006'>
-        <pose frame=''>3.48852 5.60069 0.502739 0 0 -1.56627</pose>
+        <pose>3.48852 5.60069 0.502739 0 0 -1.56627</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_RoomWindow_01::link'>
-          <pose frame=''>3.48852 5.60069 0.502739 0 0 -1.56627</pose>
+          <pose>3.48852 5.60069 0.502739 0 0 -1.56627</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='RoomWindow_01_007'>
-        <pose frame=''>1.14095 5.60069 0.502739 0 0 -1.56627</pose>
+        <pose>1.14095 5.60069 0.502739 0 0 -1.56627</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_RoomWindow_01::link'>
-          <pose frame=''>1.14095 5.60069 0.502739 0 0 -1.56627</pose>
+          <pose>1.14095 5.60069 0.502739 0 0 -1.56627</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='RoomWindow_01_008'>
-        <pose frame=''>-1.19934 5.60069 0.502739 0 0 -1.56627</pose>
+        <pose>-1.19934 5.60069 0.502739 0 0 -1.56627</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_RoomWindow_01::link'>
-          <pose frame=''>-1.19934 5.60069 0.502739 0 0 -1.56627</pose>
+          <pose>-1.19934 5.60069 0.502739 0 0 -1.56627</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='RoomWindow_01_009'>
-        <pose frame=''>-2.39662 4.38761 0.502739 0 -0 0</pose>
+        <pose>-2.39662 4.38761 0.502739 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_RoomWindow_01::link'>
-          <pose frame=''>-2.39662 4.38761 0.502739 0 -0 0</pose>
+          <pose>-2.39662 4.38761 0.502739 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='SeasoningBox_01_001'>
-        <pose frame=''>9.10797 -2.65173 0.902458 -6e-06 3.4e-05 0.00129</pose>
+        <pose>9.10797 -2.65173 0.902458 -6e-06 3.4e-05 0.00129</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_SeasoningBox_01::link'>
-          <pose frame=''>9.10797 -2.65173 0.902458 -6e-06 3.4e-05 0.00129</pose>
+          <pose>9.10797 -2.65173 0.902458 -6e-06 3.4e-05 0.00129</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='ShoeRack_01_001'>
-        <pose frame=''>4.29798 -5.17357 0 0 -0 0</pose>
+        <pose>4.29798 -5.17357 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_ShoeRack_01::link'>
-          <pose frame=''>4.29798 -5.17357 0 0 -0 0</pose>
+          <pose>4.29798 -5.17357 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='TVCabinet_01_001'>
-        <pose frame=''>0.629509 -5.18358 -0.017049 0 -0 1.5792</pose>
+        <pose>0.629509 -5.18358 -0.017049 0 -0 1.5792</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_TVCabinet_01::link'>
-          <pose frame=''>0.629509 -5.18358 -0.017049 0 -0 1.5792</pose>
+          <pose>0.629509 -5.18358 -0.017049 0 -0 1.5792</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Tablet_01_001'>
-        <pose frame=''>1.57283 -1.77586 0.40179 -0.020625 -8e-05 -0.006317</pose>
+        <pose>1.57283 -1.77586 0.40179 -0.020625 -8e-05 -0.006317</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Tablet_01::link'>
-          <pose frame=''>1.57283 -1.77586 0.40179 -0.020625 -8e-05 -0.006317</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='Tableware_01_001'>
-        <pose frame=''>7.15317 0.982767 0.817812 -0.001238 -0.000976 1.02476</pose>
-        <scale>1 1 1</scale>
-        <link name='aws_robomaker_residential_Tableware_01::link'>
-          <pose frame=''>7.15317 0.982767 0.817812 -0.001238 -0.000976 1.02476</pose>
+          <pose>1.57283 -1.77586 0.40179 -0.020625 -8e-05 -0.006317</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Trash_01_002'>
-        <pose frame=''>-8.70415 1.00058 0.011 0 -0 0</pose>
+        <pose>-8.70415 1.00058 0.011 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Trash_01::link'>
-          <pose frame=''>-8.70415 1.00058 0.011 0 -0 0</pose>
+          <pose>-8.70415 1.00058 0.011 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Vase_01_001'>
-        <pose frame=''>3.05566 -5.41308 1.57496 3e-06 0.0017 0.00084</pose>
+        <pose>3.05566 -5.41308 1.57496 3e-06 0.0017 0.00084</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Vase_01::link'>
-          <pose frame=''>3.05566 -5.41308 1.57496 3e-06 0.0017 0.00084</pose>
+          <pose>3.05566 -5.41308 1.57496 3e-06 0.0017 0.00084</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Wardrobe_01_001'>
-        <pose frame=''>-3.14671 2.4762 0.000704 0 0 -1.56967</pose>
+        <pose>-3.14671 2.4762 0.000704 0 0 -1.56967</pose>
         <scale>1 1 1</scale>
         <link name='aws_robomaker_residential_Wardrobe_01::link'>
-          <pose frame=''>-3.14671 2.4762 0.000704 0 0 -1.56967</pose>
+          <pose>-3.14671 2.4762 0.000704 0 0 -1.56967</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_residential_ChairA_01'>
-        <pose frame=''>1.0368 -0.934964 -7e-06 2e-05 1.8e-05 1.57</pose>
+        <pose>1.0368 -0.934964 -0 0 -0 1.57</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>1.0368 -0.934964 -7e-06 2e-05 1.8e-05 1.57</pose>
+          <pose>1.0368 -0.934964 -0 0 -0 1.57</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-1e-06 -1e-06 -6.74724 1.3497 1.30029 0</acceleration>
-          <wrench>-4e-06 -4e-06 -50.6043 0 -0 0</wrench>
+          <acceleration>1.6e-05 2e-06 3.44616 1.56707 0.288288 -1.1e-05</acceleration>
+          <wrench>0.000118 1.8e-05 25.8462 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_residential_ChairA_01_0'>
-        <pose frame=''>1.84388 -0.939976 -5e-06 2.7e-05 -0 1.56999</pose>
+        <pose>1.84388 -0.939975 -6e-06 -3.3e-05 -0 1.56999</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>1.84388 -0.939976 -5e-06 2.7e-05 -0 1.56999</pose>
+          <pose>1.84388 -0.939975 -6e-06 -3.3e-05 -0 1.56999</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 -9.8 0 -0 0</acceleration>
-          <wrench>0 0 -73.5 0 -0 0</wrench>
+          <acceleration>-0.00037 -3.3e-05 3.29427 -0.068767 1.4013 5.3e-05</acceleration>
+          <wrench>-0.002775 -0.000247 24.707 0 -0 0</wrench>
         </link>
       </model>
       <model name='book_1'>
-        <pose frame=''>-9 1.7 0.75 0 -0 0</pose>
+        <pose>-9 1.7 0.75 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='cover'>
-          <pose frame=''>-9 1.69989 0.765405 0 -0 0</pose>
+          <pose>-9 1.69989 0.765405 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='page'>
-          <pose frame=''>-9 1.70061 0.765405 0 -0 0</pose>
+          <pose>-9 1.70061 0.765405 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='book_2'>
-        <pose frame=''>-9 1.7 0.78 0 -0 0</pose>
+        <pose>-9 1.7 0.78 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='cover'>
-          <pose frame=''>-9 1.69989 0.795405 0 -0 0</pose>
+          <pose>-9 1.69989 0.795405 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='page'>
-          <pose frame=''>-9 1.70061 0.795405 0 -0 0</pose>
+          <pose>-9 1.70061 0.795405 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='book_3'>
-        <pose frame=''>-9 1.7 0.812 0 -0 0</pose>
+        <pose>-9 1.7 0.812 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='cover'>
-          <pose frame=''>-9 1.69989 0.822 0 -0 0</pose>
+          <pose>-9 1.69989 0.822 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='page'>
-          <pose frame=''>-9 1.70061 0.822 0 -0 0</pose>
+          <pose>-9 1.70061 0.822 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='book_open'>
-        <pose frame=''>-7.6 2.9 0.7 0 -0 0</pose>
+        <pose>-7.6 2.9 0.7 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link_2'>
-          <pose frame=''>-7.6 2.9 0.7 0 -0 0</pose>
+          <pose>-7.6 2.9 0.7 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_3'>
-          <pose frame=''>-7.6 2.9 0.7 0 -0 0</pose>
+          <pose>-7.6 2.9 0.7 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_4'>
-          <pose frame=''>-7.6 2.9 0.7 0 -0 0</pose>
+          <pose>-7.6 2.9 0.7 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='monitor_5'>
-        <pose frame=''>1.4 -5 0.5 0 -0 3.14</pose>
+        <pose>1.4 -5 0.5 0 -0 3.14</pose>
         <scale>1 1 1</scale>
         <link name='link_6'>
-          <pose frame=''>1.70593 -4.94118 0.5 0 -0 3.14</pose>
+          <pose>1.70593 -4.94118 0.5 0 -0 3.14</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_8'>
-          <pose frame=''>1.70784 -4.94222 0.5 0 -0 3.14</pose>
+          <pose>1.70784 -4.94222 0.5 0 -0 3.14</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='vase_large_2'>
-        <pose frame=''>-3.20377 -4.92863 0 0 -0 0</pose>
+        <pose>-3.20377 -4.92863 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link_31'>
-          <pose frame=''>-3.20377 -4.92863 0 0 -0 0</pose>
+          <pose>-3.20377 -4.92863 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='vase_large_3'>
-        <pose frame=''>-8.66193 -3.93112 0 0 -0 0</pose>
+        <pose>-8.66193 -3.93112 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link_36'>
-          <pose frame=''>-8.65395 -4.10439 0 0 -0 0</pose>
+          <pose>-8.65395 -4.10439 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='vase_violet'>
-        <pose frame=''>-4.4 2.8 0.7 0 -0 0</pose>
+        <pose>-4.4 2.8 0.7 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link_34'>
-          <pose frame=''>-4.4 2.8 0.550433 0 -0 0</pose>
+          <pose>-4.4 2.8 0.550433 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <light name='BedRoom_CeilingLight_0'>
-        <pose frame=''>-6.45106 -0.69204 2 0 -0 0</pose>
+        <pose>-6.45106 -0.69204 2 0 -0 0</pose>
       </light>
       <light name='BedRoom_Portrait_Light_0'>
-        <pose frame=''>-6.19038 -1.8297 1.5587 0.3 -0 0</pose>
+        <pose>-6.19038 -1.8297 1.5587 0.3 -0 0</pose>
       </light>
       <light name='Kitchen_CeilingLight_0'>
-        <pose frame=''>7.8582 -1.5905 2.28 0 -0 0</pose>
+        <pose>7.8582 -1.5905 2.28 0 -0 0</pose>
       </light>
       <light name='LivingRoom_CeilingLight_0'>
-        <pose frame=''>1.1943 4.15576 2.2 0 -0 0</pose>
+        <pose>1.1943 4.15576 2.2 0 -0 0</pose>
       </light>
       <light name='LivingRoom_CeilingLight_1'>
-        <pose frame=''>1.1943 -1.58996 2.2 0 -0 0</pose>
+        <pose>1.1943 -1.58996 2.2 0 -0 0</pose>
       </light>
       <light name='LivingRoom_WallLight_0'>
-        <pose frame=''>1.76956 -5.44437 2.2 0 -0 0</pose>
+        <pose>1.76956 -5.44437 2.2 0 -0 0</pose>
       </light>
       <light name='LivingRoom_WallLight_1'>
-        <pose frame=''>-0.13826 -5.44437 2.2 0 -0 0</pose>
+        <pose>-0.13826 -5.44437 2.2 0 -0 0</pose>
       </light>
       <light name='TV_Light_0'>
-        <pose frame=''>0.8269 -4.93958 1.1 0 -0 0</pose>
+        <pose>0.8269 -4.93958 1.1 0 -0 0</pose>
       </light>
     </state>
     <model name='book_1'>
       <link name='cover'>
-        <pose frame=''>0 -0.000108 0.015405 0 -0 0</pose>
+        <pose>0 -0.000108 0.015405 0 -0 0</pose>
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
         <gravity>1</gravity>
@@ -5054,9 +5035,9 @@
         <enable_wind>0</enable_wind>
       </link>
       <link name='page'>
-        <pose frame=''>0 0.000608 0.015405 0 -0 0</pose>
+        <pose>0 0.000608 0.015405 0 -0 0</pose>
         <visual name='visual'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <box>
               <size>0.24502 0.15862 0.028</size>
@@ -5078,7 +5059,7 @@
         <collision name='collision'>
           <laser_retro>0</laser_retro>
           <max_contacts>10</max_contacts>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <box>
               <size>0.245 0.16 0.03</size>
@@ -5103,11 +5084,11 @@
       </link>
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>-8.59729 1.58506 0 0 -0 0</pose>
+      <pose>-8.59729 1.58506 0 0 -0 0</pose>
     </model>
     <model name='book_2'>
       <link name='cover'>
-        <pose frame=''>0 -0.000108 0.015405 0 -0 0</pose>
+        <pose>0 -0.000108 0.015405 0 -0 0</pose>
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
         <gravity>1</gravity>
@@ -5151,9 +5132,9 @@
         <enable_wind>0</enable_wind>
       </link>
       <link name='page'>
-        <pose frame=''>0 0.000608 0.015405 0 -0 0</pose>
+        <pose>0 0.000608 0.015405 0 -0 0</pose>
         <visual name='visual'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <box>
               <size>0.24502 0.15862 0.028</size>
@@ -5175,7 +5156,7 @@
         <collision name='collision'>
           <laser_retro>0</laser_retro>
           <max_contacts>10</max_contacts>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <box>
               <size>0.245 0.16 0.03</size>
@@ -5200,11 +5181,11 @@
       </link>
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>-8.47828 1.52685 0 0 -0 0</pose>
+      <pose>-8.47828 1.52685 0 0 -0 0</pose>
     </model>
     <model name='book_3'>
       <link name='cover'>
-        <pose frame=''>0 -0.000108 0.01 0 -0 0</pose>
+        <pose>0 -0.000108 0.01 0 -0 0</pose>
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
         <gravity>1</gravity>
@@ -5248,9 +5229,9 @@
         <enable_wind>0</enable_wind>
       </link>
       <link name='page'>
-        <pose frame=''>0 0.000608 0.01 0 -0 0</pose>
+        <pose>0 0.000608 0.01 0 -0 0</pose>
         <visual name='visual'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <box>
               <size>0.24502 0.15862 0.018</size>
@@ -5272,7 +5253,7 @@
         <collision name='collision'>
           <laser_retro>0</laser_retro>
           <max_contacts>10</max_contacts>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <box>
               <size>0.245 0.16 0.018</size>
@@ -5297,12 +5278,12 @@
       </link>
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>-8.14693 1.46288 0 0 -0 0</pose>
+      <pose>-8.14693 1.46288 0 0 -0 0</pose>
     </model>
     <model name='book_open'>
       <link name='link_2'>
         <visual name='visual'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
               <uri>model://book_open/meshes/cover.dae</uri>
@@ -5326,7 +5307,7 @@
         <collision name='collision'>
           <laser_retro>0</laser_retro>
           <max_contacts>10</max_contacts>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
               <uri>model://book_open/meshes/cover.dae</uri>
@@ -5352,7 +5333,7 @@
       </link>
       <link name='link_3'>
         <visual name='visual'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
               <uri>model://book_open/meshes/open_page.dae</uri>
@@ -5372,7 +5353,7 @@
         <collision name='collision'>
           <laser_retro>0</laser_retro>
           <max_contacts>10</max_contacts>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
               <uri>model://book_open/meshes/open_page.dae</uri>
@@ -5398,7 +5379,7 @@
       </link>
       <link name='link_4'>
         <visual name='visual'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
               <uri>model://book_open/meshes/pages.dae</uri>
@@ -5422,7 +5403,7 @@
         <collision name='collision'>
           <laser_retro>0</laser_retro>
           <max_contacts>10</max_contacts>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
               <uri>model://book_open/meshes/pages.dae</uri>
@@ -5448,7 +5429,7 @@
       </link>
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>-7.74347 2.44293 0 0 -0 0</pose>
+      <pose>-7.74347 2.44293 0 0 -0 0</pose>
     </model>
     <model name='aws_robomaker_residential_ChairA_01_0'>
       <link name='link'>
@@ -5462,7 +5443,7 @@
             <iyy>0.217</iyy>
             <izz>0.067</izz>
           </inertia>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
         </inertial>
         <collision name='collision'>
           <geometry>
@@ -5499,7 +5480,7 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>1.84388 -0.939978 0 0 -0 0</pose>
+      <pose>1.84388 -0.939978 0 0 -0 0</pose>
     </model>
     <model name='aws_robomaker_residential_ChairA_01'>
       <link name='link'>
@@ -5513,7 +5494,7 @@
             <iyy>0.217</iyy>
             <izz>0.067</izz>
           </inertia>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
         </inertial>
         <collision name='collision'>
           <geometry>
@@ -5550,16 +5531,16 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>1.0368 -0.934964 0 0 -0 0</pose>
+      <pose>1.0368 -0.934964 0 0 -0 0</pose>
     </model>
     <audio>
       <device>default</device>
     </audio>
     <model name='monitor_5'>
       <link name='link_6'>
-        <pose frame=''>-0.305832 -0.059311 0 0 -0 0</pose>
+        <pose>-0.305832 -0.059311 0 0 -0 0</pose>
         <visual name='visual'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
               <uri>model://monitor_5/meshes/frame.dae</uri>
@@ -5582,7 +5563,7 @@
         <collision name='collision'>
           <laser_retro>0</laser_retro>
           <max_contacts>10</max_contacts>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
               <uri>model://monitor_5/meshes/frame.dae</uri>
@@ -5607,9 +5588,9 @@
         <kinematic>0</kinematic>
       </link>
       <link name='link_8'>
-        <pose frame=''>-0.307748 -0.058272 0 0 -0 0</pose>
+        <pose>-0.307748 -0.058272 0 0 -0 0</pose>
         <visual name='visual'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
               <uri>model://monitor_5/meshes/screen1.dae</uri>
@@ -5629,7 +5610,7 @@
         <collision name='collision'>
           <laser_retro>0</laser_retro>
           <max_contacts>10</max_contacts>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
               <uri>model://monitor_5/meshes/screen1.dae</uri>
@@ -5655,7 +5636,7 @@
       </link>
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>-0.318042 0.467691 0 0 -0 0</pose>
+      <pose>-0.318042 0.467691 0 0 -0 0</pose>
     </model>
   </world>
 </sdf>
